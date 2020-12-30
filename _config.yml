@@ -18,7 +18,7 @@ minimal_mistakes_skin    : "dark" # "air", "aqua", "contrast", "dark", "dirt", "
 locale                   : "en-GB"
 title                    : "Green Cheminformatics"
 title_separator		 : "-"
-subtitle                 : "Green Cheminformatics | environmental chemistry x cheminformatics" # site tagline that appears below site title in masthead
+subtitle                 : "Green Cheminformatics" # site tagline that appears below site title in masthead
 name                     : "Adelene Lai"
 description              : "A blog about cheminformatics for the environment."
 url                      : "https://adelenel.ai"
@@ -95,7 +95,7 @@ analytics:
 author:
   name             : "Adelene Lai"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : " "
+  bio              : "cheminformatics x environmental chemistry"
   location         : "Luxembourg"
   email            :
   links:
