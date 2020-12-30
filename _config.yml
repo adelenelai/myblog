@@ -99,9 +99,9 @@ author:
   location         : "Luxembourg"
   email            :
   links:
-    - label: "Email"
+    - label: "adelenelai[at]gmail[dot]com"
       icon: "fas fa-fw fa-envelope-square"
-      url: "adelenelai@gmail.com"
+      url: "mailto:adelenelai@gmail.com"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/adelenelai"
