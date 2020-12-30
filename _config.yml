@@ -30,7 +30,7 @@ masthead_title           : "Green Cheminformatics" # overrides the website title
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
 comments:
-  provider               : #"staticman_v2" # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "custom"
+  provider               : "staticman_v2" # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "custom"
   disqus:
     shortname            : # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
   discourse:
@@ -44,11 +44,11 @@ comments:
     theme                : # "github-light" (default), "github-dark"
     issue_term           : # "pathname" (default)
   staticman:
-    branch               :  #"master"
+    branch               :  "master"
     endpoint             :  #"https://{your Staticman v3 API}/v3/entry/github/"
 reCaptcha:
-  siteKey                :
-  secret                 :
+  siteKey                : 6LdAzxoaAAAAAKa7MYagKwD2xrLJeDVXs7CK2pFh
+  secret                 : C/YwNX2YXvd/XsfIyyx5MB8UZm3E/H7E8JWsEfZXV2s1ZmNtktVzY4m0rAjBAI6nu4bnUlYYdBPZGbirm3zmv2k3tySNW8Q/Zfd5VJFe9NHi4msri1K0s7B9aouTQk6dQveEE+26bCpuHabA9ASKEmiuQCCOlB32V+6ip6RnF2PGtJw/zF/uvhs8C4ZJvB8aS/SDh2TEStvwpyUWZ3SzLgXW/NkFSUVK2IVIJnjPcOrE/F79TNOBJl82l4XQakgt9+5ExyqXj/Q27+4dMYMMPSdkBCJuRS2nSgdV2DfJ06NON7S0PS1232F71I03ED/s2nryMAgfYpgwNsudHmjRZ13DquasWK3lPIbDjY5CZsbnl1Zy9o15XKeIvCKydDX/fIVUqOitgB/bd2etudIO8iki8X2NBo3l4GzQ6UxPa9OkG1Eqo4Fn9DCyHMjVk0bxd8i8IE8mGFVqdz/olp4g4kj86LShN7y80BMzkWeAdKQbiWBFprBjVrAXeqoV9LacLVvK4j2QDSRUp2gp/xeVb96EHUmbL+4kUtKlslQpj8FCtFs/XWL04iSmF5vwl/0kavP9SAyhMkaq3W8bOZfJ2zO8KoO8v6QbNGNBfo+aaVqHz5tWakvLeqmaZvH/jWo3v6U7AdCUw3iruISNj0Fw173S2dsYQR15tMbfUBTMuHk=
 atom_feed:
   path                   : # blank (default) uses feed.xml
 search                   : # true, false (default)

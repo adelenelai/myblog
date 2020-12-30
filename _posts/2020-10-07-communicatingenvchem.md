@@ -53,3 +53,6 @@ Considering these issues, I think SMILES and/or InChIKeys should be provided ins
 <a name="casdig">3</a>: https://www.cas.org/support/documentation/chemical-substances/checkdig
 
 <a name="infopol">4</a>: https://www.cas.org/legal/infopolicy 
+
+
+
