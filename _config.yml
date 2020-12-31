@@ -48,7 +48,7 @@ comments:
     endpoint             :  #"https://{your Staticman v3 API}/v3/entry/github/"
 reCaptcha:
   siteKey                : 6LdAzxoaAAAAAKa7MYagKwD2xrLJeDVXs7CK2pFh
-  secret                 : C/YwNX2YXvd/XsfIyyx5MB8UZm3E/H7E8JWsEfZXV2s1ZmNtktVzY4m0rAjBAI6nu4bnUlYYdBPZGbirm3zmv2k3tySNW8Q/Zfd5VJFe9NHi4msri1K0s7B9aouTQk6dQveEE+26bCpuHabA9ASKEmiuQCCOlB32V+6ip6RnF2PGtJw/zF/uvhs8C4ZJvB8aS/SDh2TEStvwpyUWZ3SzLgXW/NkFSUVK2IVIJnjPcOrE/F79TNOBJl82l4XQakgt9+5ExyqXj/Q27+4dMYMMPSdkBCJuRS2nSgdV2DfJ06NON7S0PS1232F71I03ED/s2nryMAgfYpgwNsudHmjRZ13DquasWK3lPIbDjY5CZsbnl1Zy9o15XKeIvCKydDX/fIVUqOitgB/bd2etudIO8iki8X2NBo3l4GzQ6UxPa9OkG1Eqo4Fn9DCyHMjVk0bxd8i8IE8mGFVqdz/olp4g4kj86LShN7y80BMzkWeAdKQbiWBFprBjVrAXeqoV9LacLVvK4j2QDSRUp2gp/xeVb96EHUmbL+4kUtKlslQpj8FCtFs/XWL04iSmF5vwl/0kavP9SAyhMkaq3W8bOZfJ2zO8KoO8v6QbNGNBfo+aaVqHz5tWakvLeqmaZvH/jWo3v6U7AdCUw3iruISNj0Fw173S2dsYQR15tMbfUBTMuHk=
+  secret                 : jnWfTwhHCC63acu1Eo5tMqTu9vkegEZWOdWP53hBmeZxKwSd/3BGir6GafxhLPb3sF2KxioeR58Kwq8DiLym2h8xBnq4SYMNjqD2ri2/lbjaGmo+TYcHKeik9QhJUTxQrFSNpltsW4bES1Ly61mZI8CANz4qWRn9KLyrQBbsyCGd/2dZQ6QPNvubMDxFBcZKeX900MNWgACw/MtuWt29hkj+WdAWnOME/mZqM5xWs6tdhODOz4UuPoKQs/PAx+5yFDiQGB/IN0gtq5htZUpMG331xLmecldzqdeXZH6YuHGxETe3xeEvhEE3q0uMRANCdRuuzD9sKQ/jjhLs9JnG7EzPwg1qNAULGEgrPCR4WBtp4cEBqDa2LFvXIwbjAcZFbiSv8ot668bbEmyg1oRSiEJhQOfNIN9A/A9HivnRtGqVDS3qm5dSyspZS1mluyF8IksPirFhj5hHh1Lhgrz507pPsKHlGMgr//ybX/t+O6mhV7Vr3M4ZUVm7QZsyQ/2IP/1LEuxnjbW4SO1L8p+sPw61WiMwhd1RAvCDLeWOD93MJZA03acMt0f2bYAlcA9r8ZAweMZM0z1O3+MJlxDY4fxicx/sdY59loR+wDoGuLUhEFdF6izn9HfEBBn3Nb7XIvayEWZrIdf32xgUuPguXJTKN1RzRvHfuAHqCTn9k10=
 atom_feed:
   path                   : # blank (default) uses feed.xml
 search                   : # true, false (default)
