@@ -54,7 +54,3 @@ Considering these issues, I think SMILES and/or InChIKeys should be provided ins
 
 <a name="infopol">4</a>: https://www.cas.org/legal/infopolicy 
 
-
-{% if page.comments == true %}
-  {% include comments.html %}
-{% endif %}
