@@ -11,7 +11,9 @@ I'm currently doing a joint/dual PhD at the [Environmental Cheminformatics](http
 \
 \
 
-<sup>This site is built using Jekyll & Minimal Mistakes and hosted on GitHub pages. As usual, it took longer than it should have (but hey, [crash course in web development](https://adelenel.ai/blogdev/) :)).</sup>   
+<sup>This site is built using Jekyll & Minimal Mistakes and hosted on GitHub pages. As usual, it took longer than it should have (but hey, [crash course in web development](https://adelenel.ai/blogdev/) :)).</sup>  
+
+[![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fadelenel.ai%2Fabout%2F&count_bg=%23609C2A&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false)](https://hits.seeyoufarm.com) 
 
 
 
