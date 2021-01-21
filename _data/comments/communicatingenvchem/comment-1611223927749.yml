@@ -1,0 +1,7 @@
+_id: 1dd171d0-5bd1-11eb-8ad8-edad09aa88e0
+message: "@Tony Tian, agreed, SMILES are more readable for humans! It really depends on your purpose.\r\n\r\nOne caveat of using SMILES: we need to take care if multiple SMILES are available and use the appropriate form. E.g. [Dexamethasone acetate] (https://pubchem.ncbi.nlm.nih.gov/compound/236702#section=Canonical-SMILES) has both Canonical and Isomeric. Also note that there is no 'true' canonical smiles...(hmm maybe I should do a post about SMILES).\r\n\r\nUltimately, SMILES and InChIKeys were designed for different purposes. I believe the latter was intended to be an *identifier for computers* to parse efficiently and use to extract data from databases, not to be human readable."
+name: Adelene
+email: 9637e322beaf95cc10ad62e0f69a1024
+url: ''
+hidden: ''
+date: '2021-01-21T10:12:07.730Z'
