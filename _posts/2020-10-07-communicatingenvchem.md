@@ -26,12 +26,12 @@ However, from a cheminformatician's point of view, CAS is not a great identifier
 * related to previous point: CAS are not immediately operational - one can't calculate e.g. the molecular weight from a CAS alone, unlike a SMILES string
 * not Open - they are the intellectual property of the American Chemical Society and have certain use limitations <sup>[4](#infopol)</sup> associated with that e.g. 5000 record limit 
 * limited parseability using open cheminformatics toolkits (besides conversion services like Cactus, PubChem, and EPA Comptox, RDKit and CDK don't deal with CAS)
-* specificity/granularity problems: e.g. in databases, compounds can have stereochemistry [unspecified](https://pubchem.ncbi.nlm.nih.gov/compound/3680) or [specified](https://pubchem.ncbi.nlm.nih.gov/compound/236702)
+* specificity/granularity problems: e.g. in databases, compounds can have stereochemistry [unspecified](https://pubchem.ncbi.nlm.nih.gov/compound/3680) or [specified](https://pubchem.ncbi.nlm.nih.gov/compound/236702):
+
+![unspecified](../images/communicatingenvchem_CID_3680_300_nostereochem.png)  ![specified](../images/communicatingenvchem_Dexamethasone_acetate_300_stereochem.png)
 
 
 In the above examples, both stereoforms each have 2 CAS numbers associated (in PubChem), 1177-87-3 and 987-24-6. In this case, how can we distinguish which stereoisomer is which, just from CAS number alone?
-
-For more, see [here](https://en.wikipedia.org/wiki/CAS_Registry_Number).
 
 
 Considering these issues, I think SMILES and/or InChIKeys should be provided instead when communicating compounds in general.
