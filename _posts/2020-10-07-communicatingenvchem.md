@@ -31,13 +31,18 @@ However, from a cheminformatician's point of view, CAS is not a great identifier
 ![unspecified](../images/communicatingenvchem_CID_3680_300_nostereochem.png)  ![specified](../images/communicatingenvchem_Dexamethasone_acetate_300_stereochem.png)
 
 
-In the above examples, both stereoforms each have 2 CAS numbers associated (in PubChem), 1177-87-3 and 987-24-6. In this case, how can we distinguish which stereoisomer is which, just from CAS number alone?
+In the above examples, both stereoforms have the same CAS number associated (in PubChem): 1177-87-3 . In this case, how can we distinguish which stereoisomer is which, just from CAS number alone?
 
 
 Considering these issues, I think SMILES and/or InChIKeys should be provided instead when communicating compounds in general.
 
 
 (Thanks to Zhanyun Wang and Randolph Singh for interesting discussions.)
+
+
+UPDATE 21/01/2021: Another con of using CAS as identifiers: not only can there be multiple (depending e.g. on the patent application status of that chemical compound), but sometimes, CAS numbers can be 'retired' and no longer become associated with that particular compound after some time in certain databases. 
+
+
 \
 \
 
