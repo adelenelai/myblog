@@ -1,8 +1,3 @@
----
-title:  "DataViz for High-dimensional Environmental Data  #1"
----
-# A Hack to get Top-10 Boxplots using `ggplot2` in R <br/>
-
 Let's say I'm working on a fairly large dataset consisting of:
 
  * ~100 chemical compounds measured at
@@ -59,7 +54,7 @@ Here I've plotted them in ascending order of median log(Concentration).
 ```R
 suppressWarnings(suppressMessages(library("ggplot2")))
 options(repr.plot.width=20, repr.plot.height=12)
-bp <- ggplot(df, aes(x=reorder(Compound,logConc, FUN=median),y=logConc)) +
+bp <- ggplot(df, aes(x=reorder(Compound,logConc, FUN=median),y=logConc)) + 
 xlab("Compound") + ylab("log(Conc)") + geom_boxplot() + geom_point(alpha=0.3) +
 theme(axis.text.x = element_text(size=14, angle=65, hjust=1),axis.text.y = element_text(size=24)) +
 theme(axis.title.x = element_text(face="bold", size=30), axis.title.y = element_text(face="bold",size=30))  
@@ -67,11 +62,11 @@ theme(axis.title.x = element_text(face="bold", size=30), axis.title.y = element_
 
 
 ```R
-bp
+bp 
 ```
 
 
-![png](/top10boxplotshack_gist_20210217_dataviz1/output_4_0.png)
+![png](output_4_0.png)
 
 
 ### Looks pretty busy, doesn't it?
@@ -117,9 +112,9 @@ head(df)
 
 
 
-Instead, I calculated and ordered the median values "in situ" within the `aes` argument of `ggplot2`.
+Instead, I calculated and ordered the median values "in situ" within the `aes` argument of `ggplot2`. 
 
-This strategy was deliberate; I wanted to keep my `df` lean because I planned to generate multiple views of the data by calculating and plotting multiple median concentration values across different variables e.g.
+This strategy was deliberate; I wanted to keep my `df` lean because I planned to generate multiple views of the data by calculating and plotting multiple median concentration values across different variables e.g. 
 
 * sampling location
 * sampling timepoint
@@ -127,9 +122,9 @@ This strategy was deliberate; I wanted to keep my `df` lean because I planned to
 
 If I had calculated and stored the median values for each, I would have had more and more columns in my already large `df`.
 
-So to avoid bloating my data frame (or generating multiple additional data frames), calculating the median values within the `ggplot` call seemed the most elegant strategy.
+So to avoid bloating my data frame (or generating multiple additional data frames), calculating the median values within the `ggplot` call seemed the most elegant strategy. 
 
-The downside now of course, is that I can't just sort and subset my data to plot the Top-10 (and googling "ggplot display top 10 boxplots", "subset ggplot boxplots", and variations thereof yielded nothing.)
+The downside now of course, is that I can't just sort and subset my data to plot the Top-10 (and googling "ggplot display top 10 boxplots", "subset ggplot boxplots", and variations thereof yielded nothing.) 
 
 
 
@@ -164,27 +159,27 @@ top10_medians_percompound <- df[df$Compound %in% compounds_sorted_ascending_medi
 
 
 ```R
-ggplot(top10_medians_percompound, aes(x=reorder(Compound,logConc, FUN=median),y=logConc)) +
+ggplot(top10_medians_percompound, aes(x=reorder(Compound,logConc, FUN=median),y=logConc)) + 
 xlab("Compound") + ylab("log(Conc)") + geom_boxplot() + geom_point(alpha=0.3) +
 theme(axis.text.x = element_text(size=24, angle=65, hjust=1),axis.text.y = element_text(size=24)) +
 theme(axis.title.x = element_text(face="bold", size=30), axis.title.y = element_text(face="bold",size=30))  
 ```
 
 
-![png](top10boxplotshack_gist_20210217_dataviz1/output_10_0.png)
+![png](output_10_0.png)
 
 
 In a few lines of code, I was able to 'visually subset' my boxplots without having to compromise the deliberate leanness of my original data frame.
 
-My strategy to keep the `df` lean (have minimum no. columns) arose as I knew I wanted to generate multiple plots of different median values calculated across different variables within the same dataset.
+My strategy to keep the `df` lean (have minimum no. columns) arose as I knew I wanted to generate multiple plots of different median values calculated across different variables within the same dataset. 
 
-Curious to know what approach you would have taken - leave a comment!
+Curious to know what approach you would have taken - leave a comment! 
 
 
 ### Last thoughts
 
-Are boxplots really the best way to visualise such environmental concentration data? Do concepts of IQ range and outliers make sense?
+Are boxplots really the best way to visualise such environmental concentration data? Do concepts of IQ range and outliers make sense? 
 
-What other plots besides boxplots are well suited for visualising **high-dimensional environmental data**? Static vs. interactive options?
+What other plots besides boxplots are well suited for visualising **high-dimensional environmental data**? Static vs. interactive options? 
 
 That's what I hope to continue exploring in this series!
