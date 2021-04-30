@@ -30,7 +30,7 @@ masthead_title           : "Green Cheminformatics" # overrides the website title
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
 comments:
-  provider               : "staticman_v2" 
+  provider               : "staticman_v2"
   staticman:
     branch               :  "master"
     endpoint             :  https://gcinf.herokuapp.com/v2/entry/
@@ -83,7 +83,7 @@ analytics:
 author:
   name             : "Adelene Lai"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "environmental chem(ist/informatician)" 
+  bio              : "environmental chem(ist/informatician)"
   location         : "Luxembourg"
   email            :
   links:
@@ -105,8 +105,8 @@ author:
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       url: "https://twitter.com/AdeleneLai"
-   
-   
+
+
 # Site Footer
 footer:
   links:
