@@ -1,7 +1,7 @@
 ---
 title:  "Cheminformatics in the Command Line: Ampersands"
 ---
-##  Not a logical operator, but a control operator
+###  Not a logical operator, but a control operator
 
 Lately in my PhD research, I have been using [SMARTS notation](https://www.daylight.com/dayhtml/doc/theory/theory.smarts.html) within queries for substructure matching.
 
@@ -9,7 +9,11 @@ In SMARTS, the ampersand '&' character is used as a **logical operator** to form
 
 Put simply: an ampersand combines properties specified for an atom or bond into one expression.  
 
-For example, let's say I wanted to find all C's bonded to a specific number of hydrogen atoms. I would express my query as SMARTS strings as `[#6&Hx]`, where x is the no. of hydrogen atoms.
+For a very simple example, let's say I wanted to find all C's bonded to a specific number of hydrogen atoms. I would express my query as the following SMARTS string:
+
+ `[#6&Hx]`
+
+ where x is the no. of hydrogen atoms.
 
 {% gist 58eaed597a54d0fb78878fdd6b2a1c94 %}
 
@@ -17,7 +21,7 @@ All well and good while prototyping code in Jupyter notebooks.
 
 However I started executing my scripts in the command line using Python's `argparse` module, and I wanted to specify SMARTS strings as inputs.
 
-These SMARTS contain ampersands. In my haste, I ran in the CL like this:
+These SMARTS contain ampersands. In my haste, I ran it in the CL like this:
 
 ```
 $ python myscript.py -smarts [#6&H2]
@@ -36,7 +40,7 @@ and these are referred to as asynchronous commands."
 The very simple solution of course is to simply add quotation marks around the SMARTS string CL input:
 
 ```
-$python myscript.py -smarts '[#6&H2]'
+$ python myscript.py -smarts '[#6&H2]'
 ```
 
 A timely reminder to get more coffee...
