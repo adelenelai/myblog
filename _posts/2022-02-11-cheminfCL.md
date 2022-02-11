@@ -1,6 +1,7 @@
+---
 title:  "Cheminformatics in the Command Line: Ampersands"
 ---
-##  Not a logical operator, but a control operator
+#  Not a logical operator, but a control operator
 
 Lately in my PhD research, I have been using [SMARTS notation](https://www.daylight.com/dayhtml/doc/theory/theory.smarts.html) within queries for substructure matching.
 
