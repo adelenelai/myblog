@@ -11,7 +11,7 @@ Put simply: an ampersand combines properties specified for an atom or bond into 
 
 For example, let's say I wanted to find all C's bonded to a specific number of hydrogen atoms:
 
-{% gist e7056ec0953f87b3a554ef03823d340c %}
+{% gist 58eaed597a54d0fb78878fdd6b2a1c94 %}
 
 All well and good while prototyping code in Jupyter notebooks.
 
