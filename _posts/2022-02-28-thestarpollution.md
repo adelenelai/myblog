@@ -49,6 +49,7 @@ Petaling Jaya
 
 
 ###References
+
 [1] Choong, J. A history of water cuts in Selangor this year. 2020. https://www.malaymail.com/news/malaysia/2020/10/21/a-history-of-water-cuts-in-selangor-this-year/1914721. Accessed 25 Feb 2022.
 
 [2] Yeung, J. Malaysia finds 1,800 tonnes of illegal toxic waste dumped at port. 2020. https://edition.cnn.com/2020/07/20/asia/malaysia-waste-dumping-intl-hnk-scli/index.html. Accessed 25 Feb 2022.
