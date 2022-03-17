@@ -14,7 +14,7 @@ I encountered some issues, so maybe this post might be helpful for others in the
 To start, I downloaded the Canonical SMILES .smi file from the [COCONUT website](https://coconut.naturalproducts.net/download) (Jan 2022 version).
 
 
-{% gist 7896693be082aab43b3b259d540f813f  %}
+{% gist b3579d3e02a10a330adae2f0818df137  %}
 
 
 
