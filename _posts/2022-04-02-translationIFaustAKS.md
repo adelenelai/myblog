@@ -4,7 +4,7 @@ title: "Transcription & Translation (DE->EN) of a Conversation on Mendelssohn's 
 ###  On the evolution of Mendelssohn's Violin Concerto and why it captivates so many young violinists
 
 
-[Video by Freiburger Barockorchester on YouTube](https://www.youtube.com/watch?v=6ttm_x_NO5s).
+[Video by Freiburger Barockorchester on YouTube](https://www.youtube.com/watch?v=6ttm_x_NO5s). (Ctrl+click to open in new tab)
 
 *Disclaimer #1: I do not own this video, any rights, or make any money from it or this translation - I'm just providing a transcribed translation I did for fun. (Sadly, the YouTube function to add subtitles/translations is gone, so here it shall live on my blog.)*
 
