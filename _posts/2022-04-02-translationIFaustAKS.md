@@ -4,17 +4,17 @@ title: "Transcription & Translation (DE->EN) of a Conversation on Mendelssohn's 
 ###  On the evolution of Mendelssohn's Violin Concerto and why it captivates so many young violinists
 
 
-Video by [Freiburger Barockorchester](https://www.youtube.com/watch?v=6ttm_x_NO5s).
+[Video by Freiburger Barockorchester on YouTube](https://www.youtube.com/watch?v=6ttm_x_NO5s).
 
-**Disclaimer #1: I do not own this video, any rights, or make any money from it or this translation - I'm just providing a transcribed translation I did for fun. (Sadly, the YouTube function to add subtitles/translations is gone, so here it shall live on my blog.)**
+*Disclaimer #1: I do not own this video, any rights, or make any money from it or this translation - I'm just providing a transcribed translation I did for fun. (Sadly, the YouTube function to add subtitles/translations is gone, so here it shall live on my blog.)*
 
-**Disclaimer #2: I am not a professional translator nor transcriber. I have no formal training in either. English is my 1st language and German is technically my 5th, so no guarantees of the accuracy of the translation, especially the more idiomatic parts of the conversation. Happy to get feedback or suggestions.**
+*Disclaimer #2: I am not a professional translator nor transcriber. I have no formal training in either. English is my 1st language and German is technically my 5th, so no guarantees of the accuracy of the translation, especially the more idiomatic parts of the conversation. Happy to get feedback or suggestions.*
 
 Why did I do this translation? Several reasons:
 
 1. So English speakers can understand this fascinating conversation between 2 wonderful violinists! Isabelle Faust (IF) and Anne Katharina Schreiber (AKS) touch on so many things about the music world that are typically on the 'periphery' of the concert circuit, and in an informal way that you won't find in the glossy 'highbrow' classical music magazines. For example, they discuss pedagogy (especially of young musicians and how they relate to the Mendelssohn concerto) and their personal backgrounds with respect to this piece, the process of preparing it, the audience's reactions...
 
-2. It's special to me personally. I had the privilege of attending their concert of this Mendelssohn cycle in Zurich some years ago, and it was a very powerful experience. I remember being so moved, especially by Symphony No. 5 (Reformation). I remember everyone on stage had such great energy and **chemistry**, and they seemed to have genuine fun making music ('musizierien' - a word that still tickles me). I am forever grateful that as a student, you could get tickets for 20 Swiss Francs, even for the most expensive category. Going to the Tonhalle was one of my favourite pastimes in Zurich. In fact, it was ever since hearing Isabelle Faust's Schumann Concerto performance for the first time at the Tonhalle that I became so hooked on going to classical music concerts (especially those featuring Isabelle Faust!).
+2. It's special to me personally. I had the privilege of attending their concert of this Mendelssohn cycle in Zurich some years ago, and it was a very powerful experience. I remember being so moved, especially by Symphony No. 5 (Reformation). I remember everyone on stage had such great energy and *chemistry*, and they seemed to have genuine fun making music ('musizierien' - a word that still tickles me). I am forever grateful that as a student, you could get tickets for 20 Swiss Francs, even for the most expensive category. Going to the Tonhalle was one of my favourite pastimes in Zurich. In fact, it was ever since hearing Isabelle Faust's Schumann Concerto performance for the first time at the Tonhalle that I became so hooked on going to classical music concerts (especially those featuring Isabelle Faust!).
 
 3. Because I've never done a translation before, and I thought it'd be a nice challenge :) I could write a whole post about this experience...but for now, here it is.
 
@@ -34,7 +34,7 @@ Why did I do this translation? Several reasons:
 
 *AKS:* But does it also have to do with the emotionality? With the expression?
 
-*IF:* Surely there is something quite youthful in this tenderness, in the "Sturm und Drang" and **appassionato**. That is also what I find especially beautiful in this piece, this boisterousness/turbulence ('ungestüm') and yet controlled...always with this fragility. Never muscular, but it always encourages higher and higher poetic experiences. And naturally the last movement is like fireworks spilling forth, almost.
+*IF:* Surely there is something quite youthful in this tenderness, in the "Sturm und Drang" and *appassionato*. That is also what I find especially beautiful in this piece, this boisterousness/turbulence ('ungestüm') and yet controlled...always with this fragility. Never muscular, but it always encourages higher and higher poetic experiences. And naturally the last movement is like fireworks spilling forth, almost.
 
 *AKS:* We are playing on old instruments. I know it's another matter to have been busy with the piece itself  but also intensively with the violin technique you learned back then [?]...Can you tell us a little about it - what, above all for you, the issues/concerns were?
 
@@ -54,7 +54,7 @@ Why did I do this translation? Several reasons:
 
 *AKS:* ...who premiered this piece...
 
-*IF:* ...who premiered this piece...and with whom Mendelssohn worked on in detail on the final version. From him we have very precise instructions, fingerings and lines. Then there was a third violinist - Hubert Leonard, he also studied with Mendelssohn and so then there was this other source. Then I compared it a little with help of musicologists who have had this topic under their magnifying glass, in summary, Clive Brown. Then it emerged that all these fingerings were very similar to each other, but completely different from today's modern fingerings and violin technique. Also sometimes naturally different phrasing, but the bowing was naturally very Mendelssohn. But also the **portamenti**, **glissandi** that we don't hear today, many flageolets were used, and naturally many instructional pages. Then when one reads up on these different violin schools, then one realises that even the vibrato was at least in this corner, Leipzig Gewandhaus, Joseph Joachim, very sparingly (used), really only as ornaments. One used it as an exception...vibrato...such things. Then the tempi sometimes by Joachim were extremely fast - he wasn't afraid of that. So certain aspects were taken seriously that were likely never possible with other orchestras, but with you all (the FBO) who were so naturally touched by this...it was almost, I have to say for me, practically a new piece altogether.
+*IF:* ...who premiered this piece...and with whom Mendelssohn worked on in detail on the final version. From him we have very precise instructions, fingerings and lines. Then there was a third violinist - Hubert Leonard, he also studied with Mendelssohn and so then there was this other source. Then I compared it a little with help of musicologists who have had this topic under their magnifying glass, in summary, Clive Brown. Then it emerged that all these fingerings were very similar to each other, but completely different from today's modern fingerings and violin technique. Also sometimes naturally different phrasing, but the bowing was naturally very Mendelssohn. But also the *portamenti*, *glissandi* that we don't hear today, many flageolets were used, and naturally many instructional pages. Then when one reads up on these different violin schools, then one realises that even the vibrato was at least in this corner, Leipzig Gewandhaus, Joseph Joachim, very sparingly (used), really only as ornaments. One used it as an exception...vibrato...such things. Then the tempi sometimes by Joachim were extremely fast - he wasn't afraid of that. So certain aspects were taken seriously that were likely never possible with other orchestras, but with you all (the FBO) who were so naturally touched by this...it was almost, I have to say for me, practically a new piece altogether.
 
 *AKS:* But is there a [??]...there is one part I especially love...(vocalises)
 
@@ -72,11 +72,11 @@ Why did I do this translation? Several reasons:
 
 *IF:* That is an important word that you use ('inzwischen'), because for me too, certain things were just essential...naturally also to change the fingering but it was also beautiful to realise...I also noticed that like animals we have our habits, and how quickly habits can change. Then it was slow but also beautiful to witness...having the goal before our eyes...then suddenly **Hoppla**! And naturally in the beginning one plays it slowly and crudely because one has to find how to make it elegant and sensible to play, which needs time, but we had this time while touring...in the mean time ('inzwischen') it is in fact extremely touching.
 
-*AKS:* And **right** ('richtig') too, I think, no?
+*AKS:* And *right* ('richtig') too, I think, no?
 
 *IF:* And I think right too - well what does that word mean?
 
-*AKS:* Well it **feels** right.
+*AKS:* Well it *feels* right.
 
 *IF:* For me in this constellation it feels extremely touching ('anrührend'). I think that is the word. And as said, the habits change and as said, today, today's audience as I also noticed on tour...are startled by this way of playing because they only come to the concert and hear it once, but of course we heard it many times in rehearsals and prepared it for weeks and had a lot more time to get used to it and discover and get used to it, to listen to it and feel it...and then someone comes to the concert and suddenly thinks they know it...comparing to this or that violinist (on recordings) and that is how it should be played...but now it's played differently and then they are disappointed.
 
@@ -86,11 +86,11 @@ Why did I do this translation? Several reasons:
 
 *AKS:* And the tempi...
 
-*IF:* And the tempi...which are generally with Schumann not immediately easily recognised. But with the CDs, I always noticed, or very often, that the people only start to **listen** after hearing it for the third time...to get into it...
+*IF:* And the tempi...which are generally with Schumann not immediately easily recognised. But with the CDs, I always noticed, or very often, that the people only start to *listen* after hearing it for the third time...to get into it...
 
 *AKS:* Yes they need the time that we needed too...
 
-*IF:* Yes! And naturally it would be so cool if during the tour we could tell the audience to stay the same every three or five concerts so that they too can notice and experience what we experience with this way of playing. But I think it needs time, and perhaps there are other performers and ways of playing, to give then a chance...we don't want to somehow fabricate authenticity here. That is an undoable thing anyway, but I find it so unbelievably important and fun to **try** to get closer to the composer and the time they were in, which I think is the intention/idea of this orchestra.
+*IF:* Yes! And naturally it would be so cool if during the tour we could tell the audience to stay the same every three or five concerts so that they too can notice and experience what we experience with this way of playing. But I think it needs time, and perhaps there are other performers and ways of playing, to give then a chance...we don't want to somehow fabricate authenticity here. That is an undoable thing anyway, but I find it so unbelievably important and fun to *try* to get closer to the composer and the time they were in, which I think is the intention/idea of this orchestra.
 
 *AKS:* Yes, yes...
 
@@ -108,9 +108,7 @@ Why did I do this translation? Several reasons:
 
 *IF:* Have fun!
 
-<inaudible>
+(End)
 
-
-~ End ~
 
 [![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fadelenel.ai%2FtranslationIFaustAKS&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false)](https://hits.seeyoufarm.com)
