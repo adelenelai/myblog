@@ -2,6 +2,7 @@
 permalink: /about/
 ---
 
+Hello World :)
 
 I work at the intersection of cheminformatics and environmental chemistry, which is what this blog will mostly be about.
 
@@ -9,7 +10,7 @@ I completed my [MSc. Environmental Sciences](https://ibp.ethz.ch/) at ETH Zurich
 
 Currently, I am doing a joint/dual PhD at the [Environmental Cheminformatics](https://wwwen.uni.lu/lcsb/research/environmental_cheminformatics/research_projects) Group based at the Luxembourg Centre for Systems Biomedicine, Luxembourg and the [Cheminformatics and Computational Metabolomics](https://cheminf.uni-jena.de/) Group, based at Friedrich Schiller University, Germany.
 
-In my PhD, I develop open cheminformatics and computational methods to identify unknown chemicals detected in the environment. I’ve worked with [Swiss](https://enveurope.springeropen.com/articles/10.1186/s12302-021-00475-1) and [Luxembourgish](https://pubs.acs.org/doi/10.1021/acsenvironau.1c00008) authorities to help identify chemical pollutants detected in environmental water samples measured using Liquid Chromatography-High Resolution Mass Spectrometry. Working with open environmental chemistry data, such as those from the NORMAN Network, is critical to our efforts.
+In my PhD, I develop open cheminformatics and computational methods to identify unknown chemicals detected in the environment. I’ve worked with [Swiss](https://enveurope.springeropen.com/articles/10.1186/s12302-021-00475-1) and [Luxembourgish](https://pubs.acs.org/doi/10.1021/acsenvironau.1c00008) authorities to help identify chemical pollutants detected using Liquid Chromatography-High Resolution Mass Spectrometry. Working with *open environmental chemistry data*, such as those from the NORMAN Network, is critical to our efforts.
 
 My current interests are in tackling the most challenging of environmental unknowns – substances of Unknown or Variable composition, Complex reaction products, or Biological materials ([UVCBs](https://echa.europa.eu/support/substance-identification/what-is-a-substance)), including compounds forming homologous series such as surfactants and PFAS. I am developing cheminformatics methods to help identify UVCBs in environmental samples.
 
