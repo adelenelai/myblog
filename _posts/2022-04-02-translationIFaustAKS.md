@@ -54,9 +54,9 @@ Why did I do this translation? Several reasons:
 
 *AKS:* ...who premiered this piece...
 
-*IF:* ...who premiered this piece...and with whom Mendelssohn worked on in detail on the final version. From him we have very precise instructions, fingerings and lines. Then there was a third violinist - Hubert Leonard, he also studied with Mendelssohn and so then there was this other source. Then I compared it a little with help of musicologists who have had this topic under their magnifying glass, in summary, Clive Brown. Then it emerged that all these fingerings were very similar to each other, but completely different from today's modern fingerings and violin technique. Also sometimes naturally different phrasing, but the bowing was naturally very Mendelssohn. But also the *portamenti*, *glissandi* that we don't hear today, many flageolets were used, and naturally many instructional pages. Then when one reads up on these different violin schools, then one realises that even the vibrato was at least in this corner, Leipzig Gewandhaus, Joseph Joachim, very sparingly (used), really only as ornaments. One used it as an exception...vibrato...such things. Then the tempi sometimes by Joachim were extremely fast - he wasn't afraid of that. So certain aspects were taken seriously that were likely never possible with other orchestras, but with you all (the FBO) who were so naturally touched by this...it was almost, I have to say for me, practically a new piece altogether.
+*IF:* ...who premiered this piece...and with whom Mendelssohn worked on in detail on the final version. From him we have very precise instructions, fingerings and lines. Then there was a third violinist - Hubert Leonard, he also studied with Mendelssohn and so then there was this other source. Then I compared it a little with help of musicologists who have had this topic under their magnifying glass, in summary, Clive Brown. Then it emerged that all these fingerings were very similar to each other, but completely different from today's modern fingerings and violin technique. Also sometimes naturally different phrasing, but the bowing was naturally very Mendelssohn. But also the *portamenti*, *glissandi* that we don't hear today, many flageolets were used, and naturally many instructional pages. Then when one reads up on these different violin schools, then one realises that even the *vibrato* was at least in this corner, Leipzig Gewandhaus, Joseph Joachim, very sparingly (used), really only as ornaments. One used it as an exception...*vibrato*...such things. Then the *tempi* sometimes by Joachim were extremely fast - he wasn't afraid of that. So certain aspects were taken seriously that were likely never possible with other orchestras, but with you all (the FBO) who were so naturally touched by this...it was almost, I have to say for me, practically a new piece altogether.
 
-*AKS:* But is there a [??]...there is one part I especially love...(vocalises)
+*AKS:* But is there a [?]...there is one part I especially love...(vocalises)
 
 *IF:* (laughs)...yes, with the first finger...
 
@@ -70,7 +70,7 @@ Why did I do this translation? Several reasons:
 
 *AKS:* But I find it meanwhile/anyway ('inzwischen') wonderful, the legato...that we never really reach.
 
-*IF:* That is an important word that you use ('inzwischen'), because for me too, certain things were just essential...naturally also to change the fingering but it was also beautiful to realise...I also noticed that like animals we have our habits, and how quickly habits can change. Then it was slow but also beautiful to witness...having the goal before our eyes...then suddenly **Hoppla**! And naturally in the beginning one plays it slowly and crudely because one has to find how to make it elegant and sensible to play, which needs time, but we had this time while touring...in the mean time ('inzwischen') it is in fact extremely touching.
+*IF:* That is an important word that you use ('inzwischen'), because for me too, certain things were just essential...naturally also to change the fingering but it was also beautiful to realise...I also noticed that like animals we have our habits, and how quickly habits can change. Then it was slow but also beautiful to witness...having the goal before our eyes...then suddenly *Hoppla*! And naturally in the beginning one plays it slowly and crudely because one has to find how to make it elegant and sensible to play, which needs time, but we had this time while touring...in the mean time ('inzwischen') it is in fact extremely touching.
 
 *AKS:* And *right* ('richtig') too, I think, no?
 
@@ -84,13 +84,13 @@ Why did I do this translation? Several reasons:
 
 *IF:* I noticed, especially with my CDs quite frequently, with the Schumann recording that with this approach to recording...there I also had the feeling during the tour that not everyone was convinced/compelled by this way of playing..."Schumann with no vibrato", how would that work?
 
-*AKS:* And the tempi...
+*AKS:* And the *tempi*...
 
-*IF:* And the tempi...which are generally with Schumann not immediately easily recognised. But with the CDs, I always noticed, or very often, that the people only start to *listen* after hearing it for the third time...to get into it...
+*IF:* And the *tempi*...which are generally with Schumann not immediately easily recognised. But with the CDs, I always noticed, or very often, that the people only start to *listen* after hearing it for the third time...to get into it...
 
 *AKS:* Yes they need the time that we needed too...
 
-*IF:* Yes! And naturally it would be so cool if during the tour we could tell the audience to stay the same every three or five concerts so that they too can notice and experience what we experience with this way of playing. But I think it needs time, and perhaps there are other performers and ways of playing, to give then a chance...we don't want to somehow fabricate authenticity here. That is an undoable thing anyway, but I find it so unbelievably important and fun to *try* to get closer to the composer and the time they were in, which I think is the intention/idea of this orchestra.
+*IF:* Yes! And naturally it would be so cool if during the tour we could tell the audience to stay the same every three or five concerts so that they too can notice and experience what we experience with this way of playing. But I think it needs time, and perhaps there are other performers and ways of playing, to give them a chance...we don't want to somehow fabricate authenticity here. That is an undoable thing anyway, but I find it so unbelievably important and fun to *try* to get closer to the composer and the time they were in, which I think is the intention/idea of this orchestra.
 
 *AKS:* Yes, yes...
 
