@@ -28,7 +28,7 @@ Data in MongoDB are stored as key-value pairs within documents that are organise
 
 #### Natural Product Fingerprints: PubChem, Circular, Extended
 
-Over time, pre-calculated fingerprints for COCONUT's NPs became available in COCONUT MongoDB, calculated using built-in CDK libraries. Here's what they look like and how to download them.
+Over time, more pre-calculated fingerprints for COCONUT's NPs became available in COCONUT MongoDB, calculated using built-in CDK libraries. Here's what they look like and how to download them.
 
 {% gist 2b5d23dcf2c40f157075a97e57fcb320 %}
 
@@ -38,7 +38,7 @@ Schaub et al. worked extensively on [deglycosylation](https://jcheminf.biomedcen
 
 In COCONUT, we can query which NPs have what kinds of sugars (*e.g.,* linear, ring), and even download their aglycons (sugar-free forms) as SMILES.
 
-{% gist 84886f48a157b7f69cd20119d4fa30a8 %}
+{% gist 19dd01c46df2ebf38fb2f0089f0120ee %}
 
 #### Other goodies in COCONUT worth exploring (not in Web)
 
