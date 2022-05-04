@@ -1,5 +1,5 @@
 ---
-permalink: /hobbies/
+permalink: /publications/
 ---
 
 test123
