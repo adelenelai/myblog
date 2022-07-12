@@ -45,7 +45,7 @@ I came up with this idea thanks to the great [documentation](https://www.rdkit.o
 
 I'm curious if there are better ways to remove one substructure match at a time from a molecule. Leave a comment or Tweet at me!
 
-*Solving this problem was part of one of my PhD projects to develop an algorithm to classify homologous series. Check it out [here](https://github.com/adelenelai/classify_homologues).)*
+*Solving this problem was part of one of my PhD projects to develop an algorithm to classify homologous series. Check it out [here](https://github.com/adelenelai/classify_homologues).*
 
 ##### Further Reading
 * [RDKit Blog - R-Group Decomposition](https://rdkit.blogspot.com/2019/12/using-r-group-decomposition-code.html)
