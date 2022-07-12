@@ -8,7 +8,7 @@ I recently came across this [post](https://github.com/rdkit/rdkit/discussions/46
 Specifically, the OP asked how to delete just one Cl *atom* at a time in his molecule that contains two of them. However, `DeleteSubstructs` removes **all** substructures matching the query in a given molecule.
 
 
-![leave-tweedledum-alone](../images/tweedledum.jpg)
+![leave-tweedledum-alone](../images/tweedledum.jpeg)
 
 
 This was really interesting for me because I worked on a similar problem recently (but with a twist!).
