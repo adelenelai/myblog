@@ -32,7 +32,7 @@ As many people are likely familiar with EC<sub>50</sub>, I'll briefly explain Ri
 
 Risk Quotients are calculated by dividing the Measured Environmental Concentration (exposure level) by Predicted No Effect Concentration (acceptable effect level) of a chemical:
 
-> $Risk Quotient = Measured Environmental Concentration / Predicted No Effect Concentration$
+> Risk Quotient = Measured Environmental Concentration / Predicted No Effect Concentration
 
 The value of a compound's Risk Quotient can affect chemical prioritisation and possible risk mitigation measures such as restriction of the compound. 
 
@@ -57,7 +57,7 @@ To understand how this MCS Tanimoto Similarity is calculated, I inevitably went 
 
 From what I understood, ChemMine's MCS Tanimoto is:
 
-> $c / (a+b-c)$
+> c / (a+b-c)
 >
 > where c =  number of atoms in the MCS
 >
@@ -73,11 +73,11 @@ In the review, TP-parent pairs with MCS Tanimoto >0.95 are classified as 'simila
 
 1. **Risk Quotient of Antimicrobial Resistance (RQ<sub>AMR</sub>)**
  
- If a TP-parent pair is dissimilar, the Risk Quotient of the TP is calculated as being 10 times lower than that of a TP whose parent is deemed similar - "a lower effect potency was assumed". See the formula [here](https://pubs.acs.org/doi/10.1021/acs.est.2c09854?goto=supporting-info#eq2). 
+If a TP-parent pair is dissimilar, the Risk Quotient of the TP is calculated as being 10 times lower than that of a TP whose parent is deemed similar - "a lower effect potency was assumed". See the formula [here](https://pubs.acs.org/doi/10.1021/acs.est.2c09854?goto=supporting-info#eq2). 
 
 2. **50% Effect Concentrations (EC<sub>50</sub>) and the Toxic Ratio in Ecological Risk Assessment**
- 
- The Toxic Ratio of a chemical, which is a quotient of baseline and experimental EC<sub>50</sub> values, describes its cytotoxicity relative to its baseline toxicity. Toxic Ratios more than or equal to 10 typically indicate specific toxicity. In the review, a factor of 10 is applied to the EC<sub>50,specific</sub> values of dissimilar TPs compared to similar TPs which, for a constant EC<sub>50</sub> value, means the Toxic Ratio of dissimilar TPs is lower than that of similar TPs. Formula [here](https://pubs.acs.org/doi/full/10.1021/acs.est.2c09854#eq10).
+
+The Toxic Ratio of a chemical, which is a quotient of baseline and experimental EC<sub>50</sub> values, describes its cytotoxicity relative to its baseline toxicity. Toxic Ratios more than or equal to 10 typically indicate specific toxicity. In the review, a factor of 10 is applied to the EC<sub>50,specific</sub> values of dissimilar TPs compared to similar TPs which, for a constant EC<sub>50</sub> value, means the Toxic Ratio of dissimilar TPs is lower than that of similar TPs. Formula [here](https://pubs.acs.org/doi/full/10.1021/acs.est.2c09854#eq10).
 
 The main takeaway here is:
 
@@ -108,7 +108,7 @@ Lastly, I classify TPs as being either similar or dissimilar to their parents us
 
 {% gist b2e5c16f07e483ec25c3fe4d8e87b99a  %}
 
-Feel free to use the code, I'd be grateful if you could attribute me using this link: https://doi.org/10.5281/zenodo.8079917.
+Feel free to use the code, I'd be grateful if you could attribute me using this link: [https://doi.org/10.5281/zenodo.8079917](https://doi.org/10.5281/zenodo.8079917).
 
 Let's discuss this further! Please leave a comment or send me an email :)
 
