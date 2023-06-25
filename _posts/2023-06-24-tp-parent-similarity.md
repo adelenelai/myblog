@@ -1,13 +1,13 @@
 ---
 title:  "Cheminformatics for Risk Assessment of Transformation Products"
 ---
-## MCS Tanimoto Similarity, 6000+ Transformations, Resistance and Ecological Risk Assessment
+## MCS Tanimoto Similarity, 6000+ Transformations, Antimicrobial Resistance and Ecological Risk Assessment
 
 *I'm back after a hiatus, and by hiatus I mean finishing my PhD (December 2022). I now work as a software developer at an environmental analytics company here in Luxembourg - more about that in a later post.*
 
 I came across an interesting [review](https://doi.org/10.1021/acs.est.2c09854) published just 6 days ago related to the **risk assessment of antimicrobials** in Environmental Science & Technology. 
 
-This line in the abstract caught my eye: *we propose evaluation of structural similarity between parent compounds and TPs for TP risk assessment*.
+This line in the abstract caught my eye: *"we propose evaluation of structural similarity between parent compounds and TPs for TP risk assessment"*.
 
 Some environmental chemistry context: there is concern about increasing antimicrobial resistance worldwide, as it poses threats to the health of humans, animals, and the environment. Antimicrobial resistance (e.g., to antibiotics) has been growing because of their widespread use, dating back to the discovery of penicilin in the 50s.
 
@@ -20,7 +20,7 @@ The chemical structures of many TPs are still unknown, let alone identifiable in
 Furthermore, in the context of antimicrobials, many conventional wastewater treatment plants have been ineffective in removing antimicrobial residues. Some may even produce "treatment TPs" that are discharged into aquatic environments, in addition to other TPs that would form in the environment.
 
 In short:
-> **many possible antimicrobial TPs may be present the environment, whose ecotoxicological risks may be hard to estimate or quantify.** 
+> **many possible antimicrobial TPs may be present the environment, whose ecotoxicological risks are currently hard to estimate or quantify.** 
 
 Scientifically, a very important (and interesting!) topic, tackled in the review.
 
@@ -28,14 +28,20 @@ As I worked briefly on TPs during my PhD - trying to [curate them for PubChem to
 
 In a nutshell, the authors calculated molecular similarity for TPs and their parent compounds in order to **estimate various Risk Quotients and EC<sub>50</sub> values for Risk Assessment of Antimicrobial Resistance and Ecological Risk Assessment**. 
 
-As many people are likely familiar with EC<sub>50</sub>, so I'll briefly explain Risk Quotients. 
+As many people are likely familiar with EC<sub>50</sub>, I'll briefly explain Risk Quotients: 
 
-Risk Quotients are calculated by dividing the Measured Environmental Concentration (exposure level) by Predicted No Effect Concentrations (acceptable effect level) of a chemical. The value of a compound's Risk Quotient can affect chemical prioritisation and possible risk mitigation measures such as restriction of the compound. 
+Risk Quotients are calculated by dividing the Measured Environmental Concentration (exposure level) by Predicted No Effect Concentration (acceptable effect level) of a chemical:
+
+> $Risk Quotient = Measured Environmental Concentration / Predicted No Effect Concentration$
+
+The value of a compound's Risk Quotient can affect chemical prioritisation and possible risk mitigation measures such as restriction of the compound. 
 
 If you're interested in these concepts, see below for links for Further Reading, but for now let's dive into the data and code.
 
 ### Chemical Data: Parents and Transformation Products
 Löffler et al. worked with a total of 56 TPs manually curated from the literature. They list these TP compounds in their [Supplementary Table S1 and S2](https://pubs.acs.org/doi/suppl/10.1021/acs.est.2c09854/suppl_file/es2c09854_si_002.xlsx) with plenty of details on provenance and quantified concentrations in the environment - a huge feat in itself. However, as I wanted to quickly spin up some cheminformatics analysis, I think the way this information was conveyed could be improved in the future. (I wrote about this topic 2+ years ago [here](https://adelenel.ai/communicatingenvchem/).)
+
+That said, I tried getting structure info from the TP names listed in Table S2 by various methods - doing a batch search on CompTox (only 11 structures in the result), doing a Synonym search on PubChem...but none were very successful. Probably the best way is to ask the authors for a list of SMILES or InChIKeys :)
 
 
 ### Cheminformatics Approach: MCS Tanimoto Similarity between Parents and TPs
@@ -47,7 +53,7 @@ MCS stands for Maximum Common Substructure, which is a well-known concept in che
 
 I had never heard of MCS Tanimoto before and was curious, especially since the original [ChemMine NAR paper](https://doi.org/10.1093/nar/gkr320) describes the underlying MCS algorithm as *often provid(ing) the most accurate and sensitive similarity measure, especially for compounds with large size differences*.
 
-Inevitably, I went to the ChemMine [source code](https://github.com/girke-lab/chemminetools/blob/1896c2dd7362f44193528aef028390543a125921/similarity/funcs.py#L88), that also led me to the [vignette](https://www.bioconductor.org/packages/devel/bioc/vignettes/fmcsR/inst/doc/fmcsR.html#52_Compute_MCS) of the underlying fmcsR package. 
+To understand how this MCS Tanimoto Similarity is calculated, I inevitably went to the ChemMine [source code](https://github.com/girke-lab/chemminetools/blob/1896c2dd7362f44193528aef028390543a125921/similarity/funcs.py#L88), that also led me to the [vignette](https://www.bioconductor.org/packages/devel/bioc/vignettes/fmcsR/inst/doc/fmcsR.html#52_Compute_MCS) of the underlying fmcsR package. 
 
 From what I understood, ChemMine's MCS Tanimoto is:
 
@@ -65,7 +71,7 @@ I won't get into the cheminformatics weeds of this for now, but might blog about
 ### Chemical Similarity in Antimicrobial Resistance and Ecological Risk Assessment
 In the review, TP-parent pairs with MCS Tanimoto >0.95 are classified as 'similar', and <0.95 as 'dissimilar'. These classifications have implications for calculating:
 
-1. the **Risk Quotient of Antimicrobial Resistance (RQ<sub>AMR</sub>)**
+1. **Risk Quotient of Antimicrobial Resistance (RQ<sub>AMR</sub>)**
  
  If a TP-parent pair is dissimilar, the Risk Quotient of the TP is calculated as being 10 times lower than that of a TP whose parent is deemed similar - "a lower effect potency was assumed". See the formula [here](https://pubs.acs.org/doi/10.1021/acs.est.2c09854?goto=supporting-info#eq2). 
 
@@ -81,29 +87,27 @@ In other words, the cheminformatics method used for calculating Similarity betwe
 
 
 ### First Steps in Risk Assessment of more Transformation Products
-In an effort to try to further Risk Assessment of TPs, I asked myself if and how we could apply some of these concepts to more TPs (assuming the applicability domains of these concepts extend beyond antimicrobials and can be applied to other chemicals in general).
+I asked myself if and how we could apply some of these concepts to more TPs to try to further the Risk Assessment of TPs (assuming the applicability domains of these concepts extend beyond antimicrobials and can be applied to other chemicals in general).
 
 In Section 2.2 of the paper, Löffler et al. mention that the threshold for similar/dissimilar classification is 0.95 (MCS Tanimoto Similarity) - "these values agree with the known activity loss of beta-lactam TPs via ring opening". 
 
-I'd be curious to understand this a little better, but in general in cheminformatics, I don't think there is a widely accepted cutoff for 'traditional' Tanimoto similarity, especially because there are so many ways to calculate chemical fingerprints.
+I'm curious to understand this a little better, but in general in cheminformatics, I don't think there is a widely accepted cutoff for 'traditional' Tanimoto similarity, especially because there are so many ways to calculate chemical fingerprints, e.g.,substructure keys like MACCS, circular like ECPF4, topological like Daylight etc.
 
 Nevertheless, for the purpose of this post, I wanted to demonstrate some **first steps towards applying Transformation Product Risk Assessment on a larger dataset of TPs**. 
 
 More concretely, I will classify TPs as similar/dissimilar to their parents according to Löffler et al's 0.95 threshold, albeit using a different similarity metric. Below, I'll show how I downloaded, processed, calculated similarity, and classified over 6500 parent-TP pairs.
 
+### Calculating and Classifying Parent-TP Similarities 
 First, I downloaded the latest version of [Transformations in PubChem](https://doi.org/10.5281/zenodo.7838005), specifically the 'wExtraInfo.csv' version (April 2023) which currently has 6554 entries. These entries represent documented transformations, with structural info on the parent and transformation product molecules.
 
-After some preliminary data exploration, I then calculated Molecular Similarity using RDKit. As far as I know, RDKit does not have a built-in MCS Tanimoto similarity function identical to ChemMine's, so I used <INSERT HERE>. 
+After some preliminary data exploration, I then calculated Molecular Similarity using RDKit. As far as I know, RDKit does not have a built-in MCS Tanimoto similarity function identical to ChemMine's, so I used the Morgan Fingerprint  . 
 
 (Note that unlike ChemMine's method that calculates Tanimoto based on MCS, this approach first calculates molecular fingerprints, then does the Tanimoto calculation using the equation above on the numbers of 'on' bits.)
  
 Lastly, I classify TPs as being either similar or dissimilar to their parents using the same threshold of 0.95 described in Löffler et al. Ideally, I would evaluate the similarity of a beta lactam and its TP upon ring opening and use that as a benchmark for each similarity method, but I'll keep it simple for now.
 
-<insert GIST>
 
-Feel free to use the code, I'd be grateful if you could attribute me using this link: <LINK>.
-
-And if you'd like to share or cite this post, here's a stable DOI: <LINK>. 
+Feel free to use the code, I'd be grateful if you could attribute me using this link: https://doi.org/10.5281/zenodo.8079917.
 
 Let's discuss this further! Please leave a comment or send me an email :)
 
@@ -112,10 +116,10 @@ Let's discuss this further! Please leave a comment or send me an email :)
 ### Further reading
 1. [Risk Assessment](https://doi.org/10.2166/9781789061987)
 2. On MCS Tanimoto, see this [issue on Chemmine Github](https://github.com/girke-lab/chemminetools/issues/172), [Cao et al.](https://doi.org/10.1093/bioinformatics/btn186), [Zhang et al](https://doi.org/10.1007/s10822-015-9872-1), and this discussion in the RDKit community [here](https://github.com/rdkit/rdkit/discussions/6265). 
-3. [RDKit Blog](https://greglandrum.github.io/rdkit-blog/) - full of awesome stuff, I learn a lot from it
+3. [RDKit Blog](https://greglandrum.github.io/rdkit-blog/) - full of awesome stuff in general, I learn a lot from it.
+4. Fingerprints in the RDKit: [here](https://www.rdkit.org/UGM/2012/Landrum_RDKit_UGM.Fingerprints.Final.pptx.pdf) and [here](https://greglandrum.github.io/rdkit-blog/posts/2023-01-18-fingerprint-generator-tutorial.html)
 
-
-*Credits to the PubChem-ECI team for their continued work on Transformations, and a shoutout to Beate Escher and Martin Scheringer, whose lecture introduced me to Environmental Risk Assessment almost a decade ago - it's a large reason why I went into environmental chemistry :)*
+*Credits to the PubChem-ECI team for their continued work on Transformations, and a shoutout to Beate Escher and Martin Scheringer, whose lecture introduced me to Environmental Risk Assessment almost a decade ago - it's a big reason why I went into environmental chemistry :)*
 
 
 
