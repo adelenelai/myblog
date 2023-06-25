@@ -106,6 +106,7 @@ After some preliminary data exploration, I then calculated Molecular Similarity 
  
 Lastly, I classify TPs as being either similar or dissimilar to their parents using the same threshold of 0.95 described in Löffler et al. Ideally, I would evaluate the similarity of a beta lactam and its TP upon ring opening and use that as a benchmark for each similarity method, but I'll keep it simple for now.
 
+{% gist b2e5c16f07e483ec25c3fe4d8e87b99a  %}
 
 Feel free to use the code, I'd be grateful if you could attribute me using this link: https://doi.org/10.5281/zenodo.8079917.
 
