@@ -5,7 +5,11 @@ title:  "Cheminformatics for Risk Assessment of Transformation Products"
 
 *I'm back after a hiatus, and by hiatus I mean finishing my PhD (December 2022). I now work as a software developer at an environmental analytics company here in Luxembourg - more about that in a later post.*
 
-I came across an interesting [review](https://doi.org/10.1021/acs.est.2c09854) published just 6 days ago related to the **risk assessment of antimicrobials** in Environmental Science & Technology. 
+> tl;dr: In this post, I discuss data curation of transformation products, molecular similarity calculation, and its use in the risk assessment of chemicals, based on a recent review paper by Löffler et al. 
+>
+> I'd like to believe there's something in this post for everyone - a little bit of cheminformatics, some environmental chemistry, and a generous sprinkle of environmental risk assessment. However, I admit it can sometimes get a bit technical, so please bear with :)
+
+I came across an interesting [review](https://doi.org/10.1021/acs.est.2c09854) published just 5 days ago related to the **risk assessment of antimicrobials** in Environmental Science & Technology. 
 
 This line in the abstract caught my eye: *"we propose evaluation of structural similarity between parent compounds and TPs for TP risk assessment"*.
 
@@ -125,8 +129,6 @@ Let's discuss this further! Please leave a comment or send me an email :)
 4. Fingerprints in the RDKit: [here](https://www.rdkit.org/UGM/2012/Landrum_RDKit_UGM.Fingerprints.Final.pptx.pdf) and [here](https://greglandrum.github.io/rdkit-blog/posts/2023-01-18-fingerprint-generator-tutorial.html)
 
 *Credits to the PubChem-ECI team for their continued work on Transformations, and a shoutout to Beate Escher and Martin Scheringer, whose lecture introduced me to Environmental Risk Assessment almost a decade ago - it's a big reason why I went into environmental chemistry :)*
-
-[![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fadelenel.ai%2Ftp-parent-similarity%2F&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false)](https://hits.seeyoufarm.com)
 
 
 
