@@ -3,6 +3,8 @@ title:  "DRAFT WIP: Cheminformatics for Risk Assessment of Transformation Produc
 ---
 ## MCS Tanimoto Similarity, 6000+ Transformations, Antimicrobial Resistance and Ecological Risk Assessment
 
+THIS IS A DRAFT POST, WIP.
+
 *I'm back after a hiatus, and by hiatus I mean finishing my PhD (December 2022). I now work as a software developer at an environmental analytics company here in Luxembourg - more about that in a later post.*
 
 > tl;dr: In this post, I discuss data curation of transformation products, molecular similarity calculation, and its use in the risk assessment of chemicals, based on a recent review paper by Löffler et al. 
@@ -49,9 +51,9 @@ If you're interested in these concepts, see below for links for Further Reading,
 ### Chemical Data: Parents and Transformation Products
 Löffler et al. worked with a total of 56 TPs manually curated from the literature. They list these TP compounds in their Supplementary Information, including structure information in the form of SMILES and InChIKeys in Table S3 (XLSX). 
 
-It's great that people have started doing this now (I wrote about this topic 2+ years ago [here](https://adelenel.ai/communicatingenvchem/). However as I wanted to spin up some quick cheminformatics analysis, a CSV or TXT file instead of XLSX would have been a bit more helpful for easier reading into Python or R without having to do any extra manual steps to pre-process the data (plus, XLSX is technically a proprietary format). 
+It's great that people have started doing this now (I wrote about this topic 2+ years ago [here](https://adelenel.ai/communicatingenvchem/)). However as I wanted to spin up some quick cheminformatics analysis, a CSV or TXT file instead of XLSX would have been a bit more helpful for easier reading into Python or R without having to do any extra manual steps to pre-process the data (plus, XLSX is technically a proprietary format). 
 
-As an example of what I mean, check out this [TXT file](https://pubs.acs.org/doi/suppl/10.1021/acs.est.2c00321/suppl_file/es2c00321_si_001.txt) I prepared for the SI of our review on UVCBs.
+As an example of what I mean, check out this [TXT file](https://pubs.acs.org/doi/suppl/10.1021/acs.est.2c00321/suppl_file/es2c00321_si_001.txt) I prepared for the SI of our [review on UVCBs](https://doi.org/10.1021/acs.est.2c00321).
 
 ### Cheminformatics Approach: MCS Tanimoto Similarity between Parents and TPs
 The authors calculated the **structural similarity between TPs and their respective parent compounds**, then classified them as either 'similar' or 'dissimilar' according to a similarity score threshold. In their approach, whether a parent-TP pair is similar or dissimilar affects their Risk Assessment results (see below).
