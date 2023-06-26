@@ -1,5 +1,5 @@
 ---
-title:  "Cheminformatics for Risk Assessment of Transformation Products"
+title:  "DRAFT WIP: Cheminformatics for Risk Assessment of Transformation Products"
 ---
 ## MCS Tanimoto Similarity, 6000+ Transformations, Antimicrobial Resistance and Ecological Risk Assessment
 
@@ -7,7 +7,7 @@ title:  "Cheminformatics for Risk Assessment of Transformation Products"
 
 > tl;dr: In this post, I discuss data curation of transformation products, molecular similarity calculation, and its use in the risk assessment of chemicals, based on a recent review paper by Löffler et al. 
 >
-> I'd like to believe there's something in this post for everyone - a little bit of cheminformatics, some environmental chemistry, and a generous sprinkle of environmental risk assessment. However, I admit it can sometimes get a bit technical, so please bear with :)
+> I'd like to believe there's something in this post for everyone - a little bit of cheminformatics, some environmental chemistry, and a generous sprinkle of environmental risk assessment. However, I admit it can sometimes get a bit technical, so I tried to explain in simple terms. Please bear with :)
 
 I came across an interesting [review](https://doi.org/10.1021/acs.est.2c09854) published just 5 days ago related to the **risk assessment of antimicrobials** in Environmental Science & Technology. 
 
@@ -47,10 +47,11 @@ The value of a compound's Risk Quotient can affect chemical prioritisation and p
 If you're interested in these concepts, see below for links for Further Reading, but for now let's dive into the data and code.
 
 ### Chemical Data: Parents and Transformation Products
-Löffler et al. worked with a total of 56 TPs manually curated from the literature. They list these TP compounds in their [Supplementary Table S1 and S2](https://pubs.acs.org/doi/suppl/10.1021/acs.est.2c09854/suppl_file/es2c09854_si_002.xlsx) with plenty of details on provenance and quantified concentrations in the environment - a huge feat in itself. However, as I wanted to quickly spin up some cheminformatics analysis, I think the way this information was conveyed could be improved in the future. (I wrote about this topic 2+ years ago [here](https://adelenel.ai/communicatingenvchem/).)
+Löffler et al. worked with a total of 56 TPs manually curated from the literature. They list these TP compounds in their Supplementary Information, including structure information in the form of SMILES and InChIKeys in Table S3 (XLSX). 
 
-That said, I tried getting structure info from the TP names listed in Table S2 by various methods - doing a batch search on CompTox (only 11 structures in the result), doing a Synonym search on PubChem...but none were very successful. Probably the best way is to ask the authors for a list of SMILES or InChIKeys :)
+It's great that people have started doing this now (I wrote about this topic 2+ years ago [here](https://adelenel.ai/communicatingenvchem/). However as I wanted to spin up some quick cheminformatics analysis, a CSV or TXT file instead of XLSX would have been a bit more helpful for easier reading into Python or R without having to do any extra manual steps to pre-process the data (plus, XLSX is technically a proprietary format). 
 
+As an example of what I mean, check out this [TXT file](https://pubs.acs.org/doi/suppl/10.1021/acs.est.2c00321/suppl_file/es2c00321_si_001.txt) I prepared for the SI of our review on UVCBs.
 
 ### Cheminformatics Approach: MCS Tanimoto Similarity between Parents and TPs
 The authors calculated the **structural similarity between TPs and their respective parent compounds**, then classified them as either 'similar' or 'dissimilar' according to a similarity score threshold. In their approach, whether a parent-TP pair is similar or dissimilar affects their Risk Assessment results (see below).
