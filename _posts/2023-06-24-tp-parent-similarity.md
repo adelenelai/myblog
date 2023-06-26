@@ -13,7 +13,11 @@ Some environmental chemistry context: there is concern about increasing antimicr
 
 However, Löffler et al., focus not on antimicrobial compounds themselves, but rather their **transformation products (TPs)**. 
 
-TPs are compounds that result from environmental transformations of so-called parent compounds, such as biodegradation and photolysis; basically, chemical reactions that happen when the parent compound enters the environment. (If you come from metabolomics, think of TPs as metabolites.)
+TPs are compounds that result from environmental transformations of so-called parent compounds, such as biodegradation and photolysis; basically, chemical reactions that happen when the parent compound enters the environment. For our purposes, human metabolism is also considered a transformation, often leading to the excretion of metabolites/TPs via wastewater. 
+
+Here's an example of thalidomide (parent) transformed to 5'-Hydroxythalidomide.
+
+![example_parent_tp](../images/example_parent_tp_thalidomide.png)
 
 The chemical structures of many TPs are still unknown, let alone identifiable in the environment, which is concerning especially since some of the TPs that *are* known have been demonstrated to be more bioactive (potentially toxic) than their parent compounds. 
 
@@ -122,6 +126,7 @@ Let's discuss this further! Please leave a comment or send me an email :)
 
 *Credits to the PubChem-ECI team for their continued work on Transformations, and a shoutout to Beate Escher and Martin Scheringer, whose lecture introduced me to Environmental Risk Assessment almost a decade ago - it's a big reason why I went into environmental chemistry :)*
 
+[![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fadelenel.ai%2Ftp-parent-similarity%2F&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false)](https://hits.seeyoufarm.com)
 
 
 
