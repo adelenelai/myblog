@@ -17,9 +17,11 @@ Some context: there is concern about increasing antimicrobial resistance worldwi
 
 In fact, antibiotic resistance is such a great concern that it's been the subject of multiple public awareness campaigns here in Luxembourg. For example, this pamphlet I found last week at my doctor's office, issued by the Luxembourgish Ministries of Health and Agriculture.
 
-{% include figure image_path="../images/antibiotics-pamphlets-fr-de.jpeg" alt="antibiotics-pamphlets in fr and de" caption="Antibiotic Resistance campaigns in Luxembourg, pamphlets in 2 of the official languages. Isn't it fascinating how different the messages in French and German are?" %}
+{% include figure image_path="../images/antibiotics-pamphlets-fr-de.svg" alt="antibiotics-pamphlets in fr and de" caption="Antibiotic Resistance campaigns in Luxembourg, pamphlets in 2 of the official languages. Isn't it fascinating how different the messages in French and German are?" %}
 
 However, Löffler et al., focus not on antimicrobial compounds themselves, but rather their **transformation products (TPs)**. 
+
+### Transformation Products
 
 TPs are compounds that result from environmental transformations of so-called parent compounds, such as biodegradation and photolysis; basically, chemical reactions that happen when the parent compound enters the environment. For our purposes, human metabolism is also considered a transformation, often leading to the excretion of metabolites/TPs and discharge into the environment via wastewater. 
 
@@ -36,11 +38,13 @@ In short:
 
 Scientifically, a very important (and interesting!) topic, tackled in the review.
 
+### TP Risk Assessment 
+
 I worked briefly on TPs during my PhD, trying to [curate them for PubChem to make TP data more FAIR](https://zenodo.org/record/7838005). Besides that, I also supervised an [internship](https://adelenel.ai/mentoring/) on this topic, so I was naturally curious about the **data and cheminformatics approach** the authors used in their review. 
 
 In a nutshell, the authors calculated molecular similarity for TPs and their parent compounds in order to **estimate various Risk Quotients and EC<sub>50</sub> values for Risk Assessment of Antimicrobial Resistance and Ecological Risk Assessment**. 
 
-As many people are likely familiar with EC<sub>50</sub>, I'll briefly explain Risk Quotients: 
+As many cheminf folks in drug discovery are likely familiar with EC<sub>50</sub>, I'll briefly explain Risk Quotients: 
 
 Risk Quotients are calculated by dividing the exposure level by the acceptable effect level of a chemical. More formally:
 
@@ -128,9 +132,11 @@ Lastly, I classify TPs as being either similar or dissimilar to their parents us
 Feel free to use the code, I'd be grateful if you could attribute me using this link: [https://doi.org/10.5281/zenodo.8079917](https://doi.org/10.5281/zenodo.8079917).
 
 ### Final Thoughts
-Now that we've classified our 6500+ parent-TP similarities, what are our next steps?
+Now that we've classified our 6500+ parent-TP similarities, what's next?
 
-Ideally, we would have Measured Environmental Concentration and Predicted No Effect Concentration data available for these compounds so we can calculate all their Risk Quotients. However, I believe these data are scarce, and risk assessors tend to have to resort to modelling MECs using fate and transport models, and PNECs using QSARs for now.
+Ideally, we would have Measured Environmental Concentration and Predicted No Effect Concentration data available for these compounds so we can calculate all their Risk Quotients. 
+
+However, I believe such data are scarce, and risk assessors tend to have to resort to modelling MECs using fate-transport models and PNECs using QSARs for now.
 
 On top of that, the elephant in the room of course remains - how many of Löffler's 56 TPs would be classified as similar/dissimilar to their respective parents using a different similarity metric (like ECFP4)? This was not in scope of the current post, but stay tuned for a possible next post on this.
 
