@@ -155,6 +155,7 @@ Happy to discuss this further!
 
 *Credits to the PubChem-ECI team for their continued work on Transformations, and a shoutout to Beate Escher and Martin Scheringer, whose lecture introduced me to Environmental Risk Assessment almost a decade ago - it's a big reason why I went into environmental chemistry :)*
 
+[![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fadelenel.ai%2Ftp-parent-similarity%2F&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false)](https://hits.seeyoufarm.com)
 
 
 
