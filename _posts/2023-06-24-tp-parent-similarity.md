@@ -3,19 +3,21 @@ title:  "DRAFT WIP: Cheminformatics for Risk Assessment of Transformation Produc
 ---
 ## MCS Tanimoto Similarity, 6000+ Transformations, Antimicrobial Resistance and Ecological Risk Assessment
 
-THIS IS A DRAFT POST, WIP.
-
 *I'm back after a hiatus, and by hiatus I mean finishing my PhD (December 2022). I now work as a software developer at an environmental analytics company here in Luxembourg - more about that in a later post.*
 
 > tl;dr: In this post, I discuss data curation of transformation products, molecular similarity calculation, and its use in the risk assessment of chemicals, based on a recent review paper by Löffler et al. 
 >
 > I'd like to believe there's something in this post for everyone - a little bit of cheminformatics, some environmental chemistry, and a generous sprinkle of environmental risk assessment. However, I admit it can sometimes get a bit technical, so I tried to explain in simple terms. Please bear with :)
 
-I came across an interesting [review](https://doi.org/10.1021/acs.est.2c09854) published just 5 days ago related to the **risk assessment of antimicrobials** in Environmental Science & Technology. 
+I came across an interesting [review](https://doi.org/10.1021/acs.est.2c09854) published just ~~5 days~~ 3 weeks ago related to the **risk assessment of antimicrobials** in Environmental Science & Technology. 
 
 This line in the abstract caught my eye: *"we propose evaluation of structural similarity between parent compounds and TPs for TP risk assessment"*.
 
-Some environmental chemistry context: there is concern about increasing antimicrobial resistance worldwide, as it poses threats to the health of humans, animals, and the environment. Antimicrobial resistance (e.g., to antibiotics) has been growing because of their widespread use, dating back to the discovery of penicilin in the 50s.
+Some context: there is concern about increasing antimicrobial resistance worldwide, as it poses threats to the health of humans, animals, and the environment. Antimicrobial resistance (e.g., to antibiotics) has been growing because of their widespread use, dating back to the discovery of penicilin in the 50s. 
+
+In fact, antimicrobial resistance is such a great concern that it's been the subject of multiple public awareness campaigns here in Luxembourg. For example, this pamphlet I found last week at my doctor's office, issued by the Luxembourgish Ministries of Health and Agriculture.
+
+{% include figure image_path="../images/antibiotics-pamphlets-fr-de.png" alt="antibiotics-pamphlets in fr and de" caption="Antibiotic Resistance campaigns in Luxembourg, pamphlets in 2 of the official languages." %}
 
 However, Löffler et al., focus not on antimicrobial compounds themselves, but rather their **transformation products (TPs)**. 
 
