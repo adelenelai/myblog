@@ -7,7 +7,9 @@ title:  "Cheminformatics for Risk Assessment of Transformation Products"
 
 > tl;dr: In this post, I discuss data curation of transformation products, molecular similarity calculation, and its use in the risk assessment of chemicals, based on a recent review paper by Löffler et al. 
 >
-> I'd like to believe there's something in this post for everyone - a little bit of cheminformatics, some environmental chemistry, and a generous sprinkle of environmental risk assessment. However, I admit it can sometimes get a bit technical, so I tried to explain in simple terms. Please bear with :)
+> I'd like to believe there's something in this post for everyone - a little bit of cheminformatics, some environmental chemistry, and a generous sprinkle of environmental risk assessment. However, I admit it can sometimes get a bit technical, so I tried to explain in simple terms. 
+>
+>If you're here just for the code, [skip to it](https://adelenel.ai/tp-parent-similarity/#first-steps-in-risk-assessment-of-more-transformation-products).
 
 I came across an interesting [review](https://doi.org/10.1021/acs.est.2c09854) published just ~~5 days~~ 3 weeks ago related to the **risk assessment of antimicrobials** in Environmental Science & Technology. 
 
@@ -131,6 +133,7 @@ Lastly, I classify TPs as being either similar or dissimilar to their parents us
 
 Feel free to use the code, I'd be grateful if you could attribute me:
 > Adelene Lai. (2023). Cheminformatics for Risk Assessment of Transformation Products (v0.0.1). Zenodo. https://doi.org/10.5281/zenodo.8079917
+
 
 ### Final Thoughts
 Now that we've classified our 6500+ parent-TP similarities, what's next?
