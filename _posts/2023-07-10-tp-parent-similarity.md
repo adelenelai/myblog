@@ -108,7 +108,7 @@ I asked myself if and how we could apply some of these concepts to more TPs to t
 
 In Section 2.2 of the paper, Löffler et al. mention that the threshold for similar/dissimilar classification is 0.95 (MCS Tanimoto Similarity) - "these values agree with the known activity loss of beta-lactam TPs via ring opening". 
 
-I'm curious to understand this a little better, but in general in cheminformatics, I don't think there is a widely accepted cutoff for 'traditional' Tanimoto similarity, especially because there are so many ways to calculate chemical fingerprints, e.g.,substructure keys like MACCS, circular like ECPF4, topological like Daylight etc.
+I'm curious to understand this a little better, but in general in cheminformatics, I don't think there is a widely accepted cutoff for 'traditional' Tanimoto similarity, especially because there are so many ways to calculate chemical fingerprints, e.g.,substructure keys like MACCS, circular like ECFP4, topological like Daylight etc.
 
 Nevertheless, for the purpose of this post, I wanted to demonstrate some **first steps towards applying Transformation Product Risk Assessment on a larger dataset of TPs**. 
 
