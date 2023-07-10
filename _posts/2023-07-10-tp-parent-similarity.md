@@ -129,7 +129,8 @@ Lastly, I classify TPs as being either similar or dissimilar to their parents us
 
 {% gist b2e5c16f07e483ec25c3fe4d8e87b99a  %}
 
-Feel free to use the code, I'd be grateful if you could attribute me using this link: [https://doi.org/10.5281/zenodo.8079917](https://doi.org/10.5281/zenodo.8079917).
+Feel free to use the code, I'd be grateful if you could attribute me:
+> Adelene Lai. (2023). Cheminformatics for Risk Assessment of Transformation Products (v0.0.1). Zenodo. https://doi.org/10.5281/zenodo.8079917
 
 ### Final Thoughts
 Now that we've classified our 6500+ parent-TP similarities, what's next?
