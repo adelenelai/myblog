@@ -153,7 +153,7 @@ Happy to discuss this further!
 3. [RDKit Blog](https://greglandrum.github.io/rdkit-blog/) - full of awesome stuff in general, I learn a lot from it.
 4. Fingerprints in the RDKit: [here](https://www.rdkit.org/UGM/2012/Landrum_RDKit_UGM.Fingerprints.Final.pptx.pdf) and [here](https://greglandrum.github.io/rdkit-blog/posts/2023-01-18-fingerprint-generator-tutorial.html)
 
-*Credits to the PubChem-ECI team for their continued work on Transformations, and a shoutout to Beate Escher and Martin Scheringer, whose lecture introduced me to Environmental Risk Assessment almost a decade ago - it's a big reason why I went into environmental chemistry :)*
+*Credits to the PubChem-ECI team for their continued work on Transformations, thanks to Jonas for discussing cheminformatics with me, and a shoutout to Beate Escher and Martin Scheringer, whose lecture introduced me to Environmental Risk Assessment almost a decade ago - it's a big reason why I went into environmental chemistry :)*
 
 [![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fadelenel.ai%2Ftp-parent-similarity%2F&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false)](https://hits.seeyoufarm.com)
 
