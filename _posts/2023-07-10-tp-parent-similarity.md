@@ -114,7 +114,7 @@ Nevertheless, for the purpose of this post, I wanted to demonstrate some **first
 
 More concretely, I will classify TPs as similar/dissimilar to their parents according to Löffler et al's 0.95 threshold, albeit using a different similarity metric. (The reason I use a different similarity metric is because MCS Tanimoto has not been implemented in my cheminformatics toolkit of choice, the RDKit.)
 
-As the data and metrics are different, any any sort of comparison is of course limited, but the point is to demonstrate how the concepts in the review could be applied to a larger dataset.
+As the data and metrics are different, any sort of comparison is of course limited for now, but the point is to demonstrate how the concepts in the review could be applied to a larger dataset.
 
 Below, I'll show how I downloaded, processed, calculated similarity, and classified over 6500 parent-TP pairs.
 
@@ -138,9 +138,9 @@ Ideally, we would have Measured Environmental Concentration and Predicted No Eff
 
 However, I believe such data are scarce, and risk assessors tend to have to resort to modelling MECs using fate-transport models and PNECs using QSARs for now.
 
-On top of that, the elephant in the room of course remains - how many of Löffler's 56 TPs would be classified as similar/dissimilar to their respective parents using a different similarity metric (like ECFP4)? This was not in scope of the current post, but stay tuned for a possible next post on this.
+On top of that, the elephant in the room of course remains - how many of Löffler's 56 TPs would be classified as similar/dissimilar to their respective parents using a different fingerprint/similarity metric (like ECFP4-Tanimoto)? This was not in scope of the current post, but stay tuned for a possible next post on this.
 
-Happy to discuss this further - why don't you leave a comment? :)
+Happy to discuss this further!
 
 
 ### Further reading
