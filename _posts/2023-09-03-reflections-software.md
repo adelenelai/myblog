@@ -5,7 +5,7 @@ title:  "Reflections on Software Development post-PhD"
 
 > If you're new to Green Cheminformatics, hello I'm Adelene.
 > I'm currently a software developer at an environmental analytics company in Luxembourg. 
-> I studied Environmental Chemistry - never thought I'd end up writing code for a living<sup>*</sup>.
+> I studied Environmental Chemistry. I never thought I'd end up writing code for a living<sup>*</sup>.
 > My PhD used cheminformatics to **identify and manage unknown chemical pollutants in the environment**. 
 > During my PhD, I wrote a [cheminformatics algorithm named after a pineapple](https://jcheminf.biomedcentral.com/articles/10.1186/s13321-022-00663-y).
 > reviewed [UVCBs](https://pubs.acs.org/doi/10.1021/acs.est.2c00321), and supported [Luxembourgish](https://pubs.acs.org/doi/10.1021/acsenvironau.1c00008) and [Swiss](https://enveurope.springeropen.com/articles/10.1186/s12302-021-00475-1) authorities, helping them identify chemicals in their waters.
@@ -27,7 +27,9 @@ However, I still work on a few cheminformatics projects in my free time, and it'
 So in this post, I thought I'd share some things I wish I knew or would have done differently during my 
 PhD.
 
-As a software dev, I code and think about code very differently now - R&D and Software Development are of course, two different beasts altogether.But especially since I still work on R&D projects in my free time, I occasionally feel the pull of old coding habits from my time in research. 
+As a software dev, I code and think about code very differently now; R&D and Software Development are of course, two different beasts altogether. 
+
+But especially since I still work on R&D projects in my free time, I occasionally feel the pull of old coding habits from my time in research. 
 
 It's like being in [Two Places At Once](https://www.youtube.com/watch?v=I1MBgIchMxM), like Mandy Moore in *A Walk to Remember* (yes, that tearjerker from the 2000s - c'mon, I'm a 90's kid).
 
@@ -46,13 +48,13 @@ It's research after all, it's supposed to fail *n+1* times, no?
 
 Old Me had the habit of commenting out failing code instead of deleting it because it represented a *scientific idea* I wanted to 'keep', thinking I would revisit it in the future (and I've seen many others do this too). 
 
-However, I inevitably often ended up with scripts and Jupyter notebooks that were super long and full of commented-out code that in hindsight, I only occasionally looked at or reused.
+However, I inevitably often ended up with scripts and Jupyter notebooks that were super long and full of commented-out code. In hindsight, I only occasionally looked at or reused such code.
 
-As a dev (New Me), I now see commented-out code as distracting or even confusing. 
+As a dev (New Me), I now see commented-out code as distracting or even confusing - *should I build this or not?* 
 
 More importantly, I realised that if you are pushing code regularly to GitHub, there's no need to keep that commented-out code in your script because you can recover it from your commit history (obvious I know, but it took someone to point that out for it to really sink in).
 
-In research, I didn't push code updates as regularly as I do now for various reasons (see next point), but if I could go back, I would do myself the following favour:
+In research, I didn't push code updates as regularly as I do now for various reasons (see next point), but if I could go back, I would do myself the following favours:
 
 * push code updates more frequently, even if changes are mildly incremental
 * try to keep my scripts short and clean -  cull useless code *yesterday*
@@ -75,7 +77,7 @@ But if I'm honest with myself, I think the main reasons I commited and pushed co
 
 Point 1 can be a doozy, especially for researchers. (Shoutout to Sam Harrison, with whom I'd started [discussing](https://www.linkedin.com/feed/update/urn:li:activity:7099089545412964352?updateEntityUrn=urn%3Ali%3Afs_feedUpdate%3A%28V2%2Curn%3Ali%3Aactivity%3A7099089545412964352%29) this with on LinkedIn.) Personally, I've experienced this feeling, but also seen it in at least 4 other colleagues during my time in research.
 
-I think we have a tendency to be 'careful' about what we put out there, because we subconsciously conflate pushing code with submitting the final version of a manuscript, which may be cited by others. 
+I think researchers have a tendency to be 'careful' about what we put out there, because we subconsciously conflate pushing code with submitting the final version of a manuscript, which may be cited by others. 
 
 The reality is, there is no *final version* of code in the same way there is a final version of a paper on the cusp of submission (or publication for that matter).
 
@@ -93,7 +95,7 @@ If I could go back in time, I would have reminded myself to stop caring. If anyt
 
 In most cases, writing software is not the same as doing research because the way I see it, code itself is not the intended product of research. Rather, it's our attempt to answer the research question that is important, with programming as a means of getting there. 
 
-So, let's move fast and break things :D
+So, let's Move Fast and Break Things :D
 
 (And as usual, there's an XKCD for that.)
 
@@ -107,25 +109,22 @@ I have lots of thoughts on this, and will save this for another post.
 ##### 3. I use coding tools that make my life better
 I now use an **autoformatter** (Black in VSCode).
 
-Previously, I used to mostly develop in Jupyter Notebooks. I liked being able to visualise my results instantly in cells, and to run code cell-by-cell. Then when my code was >70% complete, I would switch to using a text-editor like Atom to be able to run it as a script, especially if I wanted to call it from the command line.
+Previously, I used to mostly develop in Jupyter Notebooks. I liked being able to visualise my results instantly in cells, and to run code cell-by-cell. 
 
-This was the process I used when developing [OngLai: a cheminformatics algorithm to classify homologous series](https://github.com/adelenelai/onglai-classify-homologues)).
+Then when my code was >70% complete, I would switch to using a text-editor like Atom to be able to run it as a script, especially if I wanted to call it from the command line.
+
+I followed this workflow when developing [OngLai: a cheminformatics algorithm to classify homologous series](https://github.com/adelenelai/onglai-classify-homologues).
 
 But *wow*, what was I doing?! (or rather, not doing...)
 
-I read somewhere that our brain should be focused on harder tasks like research, instead of being distracted by trivial things like making sure code is properly formatted.
-
-New Me would have told Old Me to check this out, especially if you use Jupyter Notebooks a lot:
-https://github.com/drillan/jupyter-black
-
-But then again, VSCode has plenty of cool advantages over Jupyter Notebooks - syntax highlighting, linking to code definitions etc.
+I read somewhere that our brain should be focused on harder tasks like research, instead of being distracted by trivial things like making sure code is properly formatted. (VSCode has plenty of cool advantages over Jupyter Notebooks - syntax highlighting, linking to code definitions etc.)
 
 I would also recommend **linting**. 
 
 Linting is different from Formatting because it analyzes how the code runs and detects errors whereas formatting only makes it look good on the page.
 
 I didn't use autoformatting or linting during my PhD and wish I had!
-(Shoutout to [Charlie Tapley-Hoyt](https://cthoyt.com/) for introducing me to these tools in one of his live Python packaging webinars.)
+(Shoutout to [Charlie Tapley-Hoyt](https://cthoyt.com/) who introduced me to these tools in one of his Python packaging webinars.)
 
 Not to mention one can now use ChatGPT, but that came out post-PhD and is another story.
 
@@ -136,11 +135,13 @@ If I think about it now as a dev working with big code bases containing function
 
 Tests should *help* you, not hinder.
 
-In that sense, I see writing and doing regular tests helps me avoid nastier problems in the future (I call pytest every time before I commit, sometimes even before staging code).
+In that sense, I see writing and doing regular tests help me avoid nastier problems in the future (I call pytest every time before I commit, sometimes even before staging code).
 
 But do we really need tests in research code?
 
-If I think back to my experience developing [OngLai](https://github.com/adelenelai/onglai-classify-homologues) (a cheminformatics algorithm to classify polymers a.k.a. homologous series), the 'tests' I developed and regularly used were not software-related but rather chemistry-related:
+If I think back to my experience developing [OngLai](https://github.com/adelenelai/onglai-classify-homologues), the 'tests' I developed and regularly used were not software-related but rather chemistry-related. 
+
+For example, my 'tests' tried to address questions like...
 
 *Does OngLai cover chemical compounds with CH<sub>2</sub> repeating units? And also CF<sub>2</sub>? CH<sub>2</sub>O<sub>2</sub>?* 
 
@@ -152,9 +153,13 @@ If I think back to my experience developing [OngLai](https://github.com/adelenel
 
 In a sense, it's all about the use cases - does my code cover the intended use cases?
 
-But also, as I initally worked with one long script that had to be called and run start-to-finish and did not really separate things out as small functions, I'm not sure it would have made sense to do unit tests at the time. (*NB Looking at the code now, I just realised I even forgot that I had indeed made smaller functions. Probably could have tested those...but I think I did this really late and just wanted to submit the darn thing*)
+But also, as I initally worked with one long script that had to be run start-to-finish, I did not really separate things out as small functions.
 
-Then there's the question of testing something already in production. I was told that it does not make sense to write tests for stuff already in production, especially if it was mainly written by others, and to focus on testing things I was working on in development.
+Therefore,  I'm not sure it would have made sense to do unit tests at the time. (*NB Looking at the code now, I just realised I even forgot that I had indeed made smaller functions. Probably could have tested those...but I think I did this really late and just wanted to submit the darn thing.*)
+
+Then there's the question of testing something already in production. 
+
+I learned that it does not make sense to write tests for stuff already in production, especially if it was mainly written by others, and to focus on testing things I was working on in development.
 
 For OngLai, I'm not sure when 'development' (in the software sense) ended, and 'production' really began.
 
@@ -162,13 +167,15 @@ That said, if I could go back, I would definitely have done things differently.
 
 For one, I think I have more of a 'coder's' mindset - trying to separate things into functions that are as small as possible.
 
-I think this only makes sense and is worth doing if there is reusability foreseen for that function. At the time though, it was difficult to know how the algorithm would progress though, and whether I would need to call certain lines of code again.
+I think this only makes sense and is worth doing if there is reusability foreseen for that function. At the time though, it was difficult to know how the algorithm would progress, and whether I would need to call certain lines of code again.
 
 *Ah* the trials and tribulations of research... :D
 
 -----------------------
 
-Overall, I *think* I've become a better coder overall (good mentorship helps). I work quicker, learn quicker, and (hopefully) write code that [not just God will understand](https://programmerhumor.io/programming-memes/only-god-and-i-knew/).
+Overall, I *think* I've become a better coder overall (good mentorship helps). I work quicker, learn quicker, and (hopefully) write code that not only God understands.
+
+![Only God Understands](../images/onlygodunderstands.png)
 
 If you stuck with me to the end, thanks for reading these rambles, feel free to leave a comment below - I'd love to know what you think.
 
