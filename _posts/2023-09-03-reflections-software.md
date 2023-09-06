@@ -7,7 +7,7 @@ title:  "Reflections on Software Development post-PhD"
 > I'm currently a software developer at an environmental analytics company in Luxembourg. 
 > I studied Environmental Chemistry. I never thought I'd end up writing code for a living<sup>*</sup>.
 > My PhD used cheminformatics to **identify and manage unknown chemical pollutants in the environment**. 
-> During my PhD, I wrote a [cheminformatics algorithm named after a pineapple](https://jcheminf.biomedcentral.com/articles/10.1186/s13321-022-00663-y).
+> During my PhD, I wrote a [cheminformatics algorithm named after a pineapple](https://jcheminf.biomedcentral.com/articles/10.1186/s13321-022-00663-y),
 > reviewed [UVCBs](https://pubs.acs.org/doi/10.1021/acs.est.2c00321), and supported [Luxembourgish](https://pubs.acs.org/doi/10.1021/acsenvironau.1c00008) and [Swiss](https://enveurope.springeropen.com/articles/10.1186/s12302-021-00475-1) authorities, helping them identify chemicals in their waters.
 > Inspired by colleagues at the Steinbeck Group, I also dipped my toes into the world of natural products and yapped about it [here](https://adelenel.ai/sugarfreecoconut/).
 
@@ -46,7 +46,7 @@ In research, I would have an idea, write some code, see it fail, comment it out,
 
 It's research after all, it's supposed to fail *n+1* times, no?
 
-Old Me had the habit of commenting out failing code instead of deleting it because it represented a *scientific idea* I wanted to 'keep', thinking I would revisit it in the future (and I've seen many others do this too). 
+Old Me had the habit of commenting out failing code instead of deleting it because it represented a *scientific idea* I wanted to 'keep', thinking I would revisit it in the future. 
 
 However, I inevitably often ended up with scripts and Jupyter notebooks that were super long and full of commented-out code. In hindsight, I only occasionally looked at or reused such code.
 
