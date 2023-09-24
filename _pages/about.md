@@ -18,7 +18,7 @@ Besides my studies, I have contributed technical expertise to multiple internati
 
 I was born and grew up in Petaling Jaya, Malaysia. 
 
-In my free time, I enjoy doing sprint triathlons and going to chamber music and orchestral concerts (Isabelle Faust is my favourite violinist).
+In my free time, I enjoy doing sprint triathlons and going to chamber music and orchestral concerts.
 
 
 [Publications](https://scholar.google.com/citations?user=qofOnu8AAAAJ&hl=en)
